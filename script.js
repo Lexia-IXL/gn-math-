@@ -3,15 +3,13 @@ const zoneViewer = document.getElementById('zoneViewer');
 let zoneFrame = document.getElementById('zoneFrame');
 const searchBar = document.getElementById('searchBar');
 const sortOptions = document.getElementById('sortOptions');
-// https://www.jsdelivr.com/tools/purge
 const zonesurls = [
-    "https://cdn.jsdelivr.net/%67%68/%67%6e%2d%6d%61%74%68/%61%73%73%65%74%73@%6d%61%69%6e/%7a%6f%6e%65%73%2e%6a%73%6f%6e",
-    "https://cdn.jsdelivr.net/gh/gn-math/assets@latest/zones.json",
-    "https://cdn.jsdelivr.net/gh/gn-math/assets@master/zones.json",
-    "https://cdn.jsdelivr.net/gh/gn-math/assets/zones.json"
+    "https://cdn.jsdelivr.net/gh/Lexia-IXL/assets@main/zones.json"
 ];
-let zonesURL = zonesurls[Math.floor(Math.random() * zonesurls.length)];
-const coverURL = "https://cdn.jsdelivr.net/gh/gn-math/covers@main";
+let zonesURL = zonesurls[0];
+
+const coverURL = "https://cdn.jsdelivr.net/gh/Lexia-IXL/covers@main";
+const htmlURL = "https://cdn.jsdelivr.net/gh/Lexia-IXL/html@main";
 const htmlURL = "https://cdn.jsdelivr.net/gh/gn-math/html@main";
 let zones = [];
 let popularityData = {};
